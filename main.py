@@ -13,6 +13,7 @@ if __name__ == '__main__':
     artists = list()
     times = list()
     dates = list()
+    skipped = list()
 
     for days_before in range(0, 15):
         check_date = date.today() + timedelta(days=-days_before)
@@ -33,7 +34,9 @@ if __name__ == '__main__':
             time_html = html.find_all('div', class_="c-epgBroadcast__time")
 
             if titles_html[0].text.strip('\n') == 'Es liegen derzeit keine Playlistdaten vor.':
-                break
+                print(f'{url} skipped')
+                skipped.append(url)
+                continue
 
             for title in titles_html:
                 titles_tmp.append(title.text.strip('\n'))
@@ -69,6 +72,8 @@ if __name__ == '__main__':
 
     df_data = pd.DataFrame(zip(dates, times, artists, titles), columns=['date', 'time', 'artist', 'title'])
     print(df_data.head())
+
+    print(skipped)
 
     hmm = date.today().strftime('%Y-%m-%d')
     df_data.to_csv(rf'./titles{hmm}.csv')
