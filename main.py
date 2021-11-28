@@ -51,7 +51,7 @@ if __name__ == '__main__':
             artists.extend(artists_tmp)
 
             for time_l in time_html:
-                time_tmp.append(time_l.text.strip('\n'))
+                time_tmp.append(time_l.text.strip("\n"))
 
             time_tmp.reverse()
             times.extend(time_tmp)
