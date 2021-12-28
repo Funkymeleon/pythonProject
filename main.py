@@ -19,7 +19,9 @@ if __name__ == '__main__':
         check_date = date.today() + timedelta(days=-days_before)
         formatted_date = check_date.strftime('%Y-%m-%d')
 
-        urls = [f"https://www.hr3.de/playlist/playlist_hrthree-100~_date-{formatted_date}_hour-{i}.html" for i in range(0, 24)]
+        urls = []
+        for i in range(0, 24):
+            urls.append(f"https://www.hr3.de/playlist/playlist_hrthree-100~_date-{formatted_date}_hour-{i}.html")
 
         for url in urls:
             titles_tmp = list()
@@ -60,7 +62,6 @@ if __name__ == '__main__':
 
             time.sleep(0.2 + random.random())
             print(f'{url} finished')
-
 
         print(f'{formatted_date} finished')
 
