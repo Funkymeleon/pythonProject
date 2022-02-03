@@ -77,4 +77,4 @@ if __name__ == '__main__':
     print(skipped)
 
     hmm = date.today().strftime('%Y-%m-%d')
-    df_data.to_csv(rf'./titles{hmm}.csv')
+    df_data.to_csv(rf'./csv/titles{hmm}.csv')
