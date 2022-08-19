@@ -1,0 +1,30 @@
+id,5971244
+title,Sledgehammer
+artist,Peter Gabriel
+composer,
+start,1657481456000
+duration,291
+end,1657481747000
+artistImage,"{'variants': {'s': 'https://image.prod.music-metadata-provider.gcp.cloud.hr.de/3d8ac365-371c-11e7-aeb1-2e7ff44a950d/4b7e93a8-371c-11e7-aeb1-2e7ff44a950d/s.jpg', 'l': 'https://image.prod.music-metadata-provider.gcp.cloud.hr.de/3d8ac365-371c-11e7-aeb1-2e7ff44a950d/4b7e93a8-371c-11e7-aeb1-2e7ff44a950d/l.jpg'}, 'copyright': 'Phillip Massey / WireImage / Getty Images', 'source': 'Getty', 'mimetype': 'image/jpeg'}"
+type,MUSIC
+id,55587176
+title,Shake it off
+artist,Taylor Swift
+composer,
+start,1657481747000
+duration,217
+end,1657481964000
+artistImage,"{'variants': {'s': 'https://image.prod.music-metadata-provider.gcp.cloud.hr.de/824b472c-bd3a-45d3-af68-407052ed5cc2/39a57d88-3a6e-4cf5-8a96-061fce9b673c/s.jpg', 'l': 'https://image.prod.music-metadata-provider.gcp.cloud.hr.de/824b472c-bd3a-45d3-af68-407052ed5cc2/39a57d88-3a6e-4cf5-8a96-061fce9b673c/l.jpg'}, 'copyright': 'Kevin Kane / WireImage / Getty Images', 'source': 'Getty', 'mimetype': 'image/jpeg'}"
+type,MUSIC
+copyright,55587176,Shake it off,Taylor Swift,,1657481747000,217,1657481964000,Kevin Kane / WireImage / Getty Images,MUSIC
+mimetype,55587176,Shake it off,Taylor Swift,,1657481747000,217,1657481964000,image/jpeg,MUSIC
+source,55587176,Shake it off,Taylor Swift,,1657481747000,217,1657481964000,Getty,MUSIC
+variants,55587176,Shake it off,Taylor Swift,,1657481747000,217,1657481964000,"{'s': 'https://image.prod.music-metadata-provider.gcp.cloud.hr.de/824b472c-bd3a-45d3-af68-407052ed5cc2/39a57d88-3a6e-4cf5-8a96-061fce9b673c/s.jpg', 'l': 'https://image.prod.music-metadata-provider.gcp.cloud.hr.de/824b472c-bd3a-45d3-af68-407052ed5cc2/39a57d88-3a6e-4cf5-8a96-061fce9b673c/l.jpg'}",MUSIC
+copyright,,,Malik Harris,Rockstars
+mimetype,,,Malik Harris,Rockstars
+source,,,Malik Harris,Rockstars
+variants,,,Malik Harris,Rockstars
+copyright,,,Kygo & Tina Turner,What's love got to do with it
+mimetype,,,Kygo & Tina Turner,What's love got to do with it
+source,,,Kygo & Tina Turner,What's love got to do with it
+variants,,,Kygo & Tina Turner,What's love got to do with it
