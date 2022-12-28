@@ -21,8 +21,8 @@ print()
 dfsonglist = dfsonglist_all.drop_duplicates(subset=['date', 'time', 'artist', 'title'], keep='first')
 
 # dfsonglist = pd.read_csv('../../pythonProject/full_list.csv', usecols=['date','time','artist','title'])
-dfsonglist['artist_stripped'] = [(re.sub('\W+', '', string).lower()) for string in dfsonglist['artist']]
-dfsonglist['title_stripped'] = [(re.sub('\W+', '', string).lower()) for string in dfsonglist['title']]
+# dfsonglist['artist_stripped'] = [(re.sub('\W+', '', string).lower()) for string in dfsonglist['artist']]
+# dfsonglist['title_stripped'] = [(re.sub('\W+', '', string).lower()) for string in dfsonglist['title']]
 dfsonglist = dfsonglist.sort_values(by=['date', 'time'], ignore_index=True)
 # dfsonglist
 
